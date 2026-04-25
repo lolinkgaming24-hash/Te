@@ -5,6 +5,6 @@ canvas.width = 1030
 canvas.height = 582
 
 for(let i = 0; i < 100; i++;){
-  console.log(i);
-  wait(1000);
+  console.log(i)
+  wait(1000)
 };
