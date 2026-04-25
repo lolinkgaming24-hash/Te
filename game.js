@@ -6,8 +6,4 @@ canvas.height = 582
 
 c.fillRectangle(0,0,canvas.width,canvas.height)
 
-c.font = "30px Comic Sans"
-
-c.fillStyle = "white"
-
 c.fillText("Please Stop", 500, 250);
