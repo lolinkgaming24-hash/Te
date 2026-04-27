@@ -34,5 +34,5 @@ class Sprite {
     }
   }
 
-draw(player)
+player.draw
   
