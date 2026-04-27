@@ -19,20 +19,20 @@ class Sprite {
     c.fillStyle = "red"
     c.fillRect(this.position.x, this.position.y, 50, this.height)
 
-  update() {
-    this.draw()
+    update() {
+      this.draw()
 
-    this.position.x += this.velocity.x
-    this.position.y += this.velocity.y
+      this.position.x += this.velocity.x
+      this.position.y += this.velocity.y
+    }
   }
-
+}
   const player = new Sprite(){
     position{
       x : 0;
       y : 0;
     }
   }
-  }
-}
 
-draw.player
+draw(player)
+  
